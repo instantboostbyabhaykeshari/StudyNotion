@@ -1,0 +1,5 @@
+.highlightTextColor {
+    background: linear-gradient(to bottom, #1FA2FF, #12D8FA, #A6FFCB);
+    background-clip: text;
+    color: transparent;
+}

@@ -1,0 +1,9 @@
+.profileDropDown {
+    display: flex;
+    gap: 10px;
+}
+
+.profileDropDownImage {
+    border-radius: 50%;
+    cursor: pointer;
+}

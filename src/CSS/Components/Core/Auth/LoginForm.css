@@ -1,0 +1,58 @@
+.loginEmailaddress{
+    font-size: 14px;
+}
+
+.aestricColor {
+    color: #EF476F;
+}
+
+.loginEmailInput, .loginPasswordInput  {
+    background-color: #161D29;
+    color: #999DAA;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 0 12px 15px;
+    margin-top: 12px;
+    width: calc(30vw - 15px);
+}
+
+.loginPassword {
+    margin-top: 15px;
+}
+
+.loginPasswordVisiblehandle {
+    position: relative;
+}
+
+.logiEyeVisibility {
+    position: absolute;
+    top: 100px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.loginForgotPassword {
+    text-decoration: none;
+}
+
+.loginForgotPassword>p {
+    font-size: 12px;
+    line-height: 20px;
+    color: #47A5C5;
+    float: right;
+    margin-top: 0.8rem;
+}
+
+.loginButton {
+    margin-top: 1.5rem;
+    background-color: #FFD60A;
+    color: #000814;
+    border-radius: 8px;
+    padding: 12px;
+    width: 30vw;
+    cursor: pointer;
+}
+

@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    font-family: "Inter", serif;
+}
+
+.quote {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.becomeInstructor {
+    font-weight: 500;
+    background-color: #161D29;
+    color: #999DAA;
+    display: flex;
+    align-items: center;
+    padding: 6px 18px;
+    height: 30px;
+    border-radius: 500px;
+    border: 1px solid #161D29;
+    box-shadow: 0 0.4px #ffffff;
+}
+
+.becomeInstructor:hover {
+    cursor: pointer;
+    transform: scale(0.95);
+    transition: all 0.3s ease-in;
+}
+
+.codingSkillsPara {
+    margin-top: 25px;
+    width: 60vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.empower {
+    font-size: 2.25rem;
+    font-weight: 600;
+}
+
+.onlineCodingCourse {
+    margin-top: 16px;
+    font-weight: 500;
+    color: #838894;
+}
+
+.learnMoreBookADemoButton {
+    margin-top: 30px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.homePageVideo {
+    margin-top: 50px;
+    width: 75vw;
+}
+
+.homePageVideo>video {
+    width: 75vw;
+    height: fit-content;
+    box-shadow: 15px 15px #ffffff;
+}
+
+
+

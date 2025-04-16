@@ -1,0 +1,58 @@
+.aestricColor {
+    color: #EF476F;
+}
+
+.firstLastName, .signupPasswoed {
+    display: flex;
+    gap: 20px;
+}
+
+.signupInput {
+    background-color: #161D29;
+    color: #999DAA;
+    border-radius: 8px;
+    border: none;
+    padding: 12px 0 12px 15px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-top: 12px;
+}
+
+.signupFirstLastNameInput, .passwordinput {
+    width: calc(15vw - 25px);
+}
+
+.signupemailAddressInput {
+    width: calc(30vw - 15px);
+}
+
+.signupLevel {
+    margin-top: 15px;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.signupPasswordVisiblehandle {
+    position: relative;
+}
+
+.signupEyeVisibility {
+    position: absolute;
+    top: 70px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.signButton {
+    margin-top: 1.5rem;
+    background-color: #FFD60A;
+    color: #000814;
+    border-radius: 8px;
+    padding: 12px;
+    width: 30vw;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    cursor: pointer;
+}

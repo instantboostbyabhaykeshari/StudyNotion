@@ -1,0 +1,27 @@
+.shifting {
+  background-color: #161D29;
+  max-width: 500px;
+  height: 44px;
+  border-radius: 500px;
+  padding: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 0 1rem 0;
+}
+
+.acountType {
+  background-color: #000814;
+  color: #F1F2FF;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  border-radius: 100px;
+  width: 97px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 18px;
+}
+  

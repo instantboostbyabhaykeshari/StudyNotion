@@ -1,0 +1,36 @@
+.courseCard {
+    width: 384px;
+    max-height: 371px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.courseCard>img{
+    width: 384px;
+    height: 201px;
+    border-radius: 8px;
+    background-size: cover;
+    background-position: center;
+}
+
+.courseCardDescription{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #F1F2FF;
+}
+
+.courseBuilderName {
+    color: #838894;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.courseRating {
+    color: #6E727F;
+}
+
+.courseCard>h2 {
+    color: #F1F2FF;
+}

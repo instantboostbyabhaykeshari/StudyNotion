@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@400..700&display=swap');
+
+.template {
+    width: 90vw;
+    margin: 4rem auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.leftPart {
+    color: #F1F2FF;
+    width: 30vw;
+}
+
+.authHeading {
+    display: flex;
+    flex-direction: column;
+}
+
+.heading {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.descriptions {
+    margin-top: 1rem;
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+
+.description2 {
+    font-family: "Edu SA Beginner", serif;
+    font-weight: 700;
+    color: #47A5C5;
+}
+ 
+.authform{
+    margin-top: 1rem;
+}
+
+.frameimage, .authimage {
+    width: 27vw;
+}
+
+.signupLoginImage {
+    position: relative;
+}
+
+.authimage {
+    position: absolute;
+    top: -15px;
+    left: -15px;
+}

@@ -1,0 +1,94 @@
+.navHead {
+    border-bottom: 1px solid #2C333F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav {
+    width: 80vw;
+    height: 55px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navBarLogo {
+    width: 156px;
+}
+
+.links>ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navBarButton {
+    display: flex;
+    gap: 15px;
+}
+ 
+.navButton {
+    padding: 10px;
+    background-color: #161D29;
+    color: #AFB2BF;
+    border: 1px solid #161D29;
+    border-radius: 8px;
+}
+
+.profiledropdown {
+    margin-left: 7px;
+    color: #999DAA;
+}
+
+.catalog {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.catalog:hover {
+    cursor: pointer;
+}
+
+.catalog>:nth-child(2) {
+    font-size: 2rem;
+}
+
+.catalogDropDown {
+    background-color: #ffffff;
+    width: 300px;
+    max-height: 100vh;
+    position: absolute;
+    top: 100%;
+    left: -50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1000;
+    visibility: hidden;
+    border-radius: 5px;
+    padding: 15px 0;
+}
+
+
+.catalog:hover .catalogDropDown{
+    cursor: pointer;
+    visibility: visible;
+    transition: all 0.3s ease-in-out;
+}
+
+.sublink {
+    width: 80%;
+    border-radius: 5px;
+    color: black;
+    padding: 20px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.sublink:hover {
+    background-color: #c5c7d3;
+}

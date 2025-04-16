@@ -1,0 +1,13 @@
+.noCoursesFound {
+    margin: 2rem auto 0 auto;
+    width: 85vw;
+}
+
+.noCoursesFound>p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #999DAA;
+}
+
+
+

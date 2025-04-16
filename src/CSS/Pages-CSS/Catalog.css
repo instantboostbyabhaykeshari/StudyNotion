@@ -1,0 +1,82 @@
+.catalogPageDetails {
+    width: 85vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 75px;
+}
+
+.homeCatalogCategoryName {
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    color: #999DAA;
+}
+
+.homeCatalogCategoryName>:nth-child(2) {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-weight: 500;
+    color: #F1F2FF;
+}
+
+.coursesToGetYouStarted {
+    width: 85vw;
+    margin: 3rem auto 12px auto;
+}
+
+.coursesToGetYouStarted>p{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.coursesCategoryDiv {
+    width: 85vw;
+    margin: auto;
+    display: flex;
+    gap: 15px;
+    border-bottom: 1px solid #999DAA;
+    padding-bottom: 5px;
+}
+
+.activeCoursesCategory {
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    color: #E7C009;
+}
+
+.unactiveCourseCategory {
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    color: #999DAA;
+}
+
+.mostPopularCourses {
+    width: 85vw;
+    margin: 2rem auto;
+}
+
+.swiper-button-prev:after, .swiper-button-next:after {
+    font-size: 2rem !important;
+    color: #999DAA !important;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    width: 0px !important;
+}
+
+.topCourses {
+    width: 85vw;
+    margin: 3rem auto;
+}
+
+.topCourses>p {
+    color: #F1F2FF;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
